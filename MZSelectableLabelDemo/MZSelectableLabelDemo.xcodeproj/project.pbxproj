@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FA74B4A1990C30700FCD5FA /* UIColor+Equalable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA74B491990C30700FCD5FA /* UIColor+Equalable.m */; };
+		1FAA3633198FD106005FAD10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAA3632198FD106005FAD10 /* main.m */; };
+		1FAA3636198FD106005FAD10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAA3635198FD106005FAD10 /* AppDelegate.m */; };
+		1FAA3639198FD106005FAD10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAA3638198FD106005FAD10 /* ViewController.m */; };
+		1FAA363C198FD106005FAD10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAA363A198FD106005FAD10 /* Main.storyboard */; };
+		1FAA363E198FD106005FAD10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAA363D198FD106005FAD10 /* Images.xcassets */; };
+		1FAA364A198FD106005FAD10 /* MZSelectableLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAA3649198FD106005FAD10 /* MZSelectableLabelDemoTests.m */; };
+		1FAA3656198FD145005FAD10 /* MZSelectableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAA3655198FD145005FAD10 /* MZSelectableLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FAA3644198FD106005FAD10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FAA3625198FD105005FAD10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FAA362C198FD105005FAD10;
+			remoteInfo = MZSelectableLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FA74B481990C30700FCD5FA /* UIColor+Equalable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Equalable.h"; sourceTree = "<group>"; };
+		1FA74B491990C30700FCD5FA /* UIColor+Equalable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Equalable.m"; sourceTree = "<group>"; };
+		1FAA362D198FD106005FAD10 /* MZSelectableLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZSelectableLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAA3631198FD106005FAD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FAA3632198FD106005FAD10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FAA3634198FD106005FAD10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FAA3635198FD106005FAD10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FAA3637198FD106005FAD10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FAA3638198FD106005FAD10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FAA363B198FD106005FAD10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FAA363D198FD106005FAD10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1FAA3643198FD106005FAD10 /* MZSelectableLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZSelectableLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAA3648198FD106005FAD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FAA3649198FD106005FAD10 /* MZSelectableLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZSelectableLabelDemoTests.m; sourceTree = "<group>"; };
+		1FAA3654198FD145005FAD10 /* MZSelectableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZSelectableLabel.h; sourceTree = "<group>"; };
+		1FAA3655198FD145005FAD10 /* MZSelectableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZSelectableLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FAA362A198FD105005FAD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAA3640198FD106005FAD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FAA3624198FD105005FAD10 = {
+			isa = PBXGroup;
+			children = (
+				1FAA3653198FD145005FAD10 /* MZSelectableLabel */,
+				1FAA362F198FD106005FAD10 /* MZSelectableLabelDemo */,
+				1FAA3646198FD106005FAD10 /* MZSelectableLabelDemoTests */,
+				1FAA362E198FD106005FAD10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FAA362E198FD106005FAD10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FAA362D198FD106005FAD10 /* MZSelectableLabelDemo.app */,
+				1FAA3643198FD106005FAD10 /* MZSelectableLabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FAA362F198FD106005FAD10 /* MZSelectableLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1FAA3634198FD106005FAD10 /* AppDelegate.h */,
+				1FAA3635198FD106005FAD10 /* AppDelegate.m */,
+				1FAA3637198FD106005FAD10 /* ViewController.h */,
+				1FAA3638198FD106005FAD10 /* ViewController.m */,
+				1FAA363A198FD106005FAD10 /* Main.storyboard */,
+				1FAA363D198FD106005FAD10 /* Images.xcassets */,
+				1FAA3630198FD106005FAD10 /* Supporting Files */,
+			);
+			path = MZSelectableLabelDemo;
+			sourceTree = "<group>";
+		};
+		1FAA3630198FD106005FAD10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FAA3631198FD106005FAD10 /* Info.plist */,
+				1FAA3632198FD106005FAD10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FAA3646198FD106005FAD10 /* MZSelectableLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FAA3649198FD106005FAD10 /* MZSelectableLabelDemoTests.m */,
+				1FAA3647198FD106005FAD10 /* Supporting Files */,
+			);
+			path = MZSelectableLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		1FAA3647198FD106005FAD10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FAA3648198FD106005FAD10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FAA3653198FD145005FAD10 /* MZSelectableLabel */ = {
+			isa = PBXGroup;
+			children = (
+				1FAA3654198FD145005FAD10 /* MZSelectableLabel.h */,
+				1FAA3655198FD145005FAD10 /* MZSelectableLabel.m */,
+				1FA74B481990C30700FCD5FA /* UIColor+Equalable.h */,
+				1FA74B491990C30700FCD5FA /* UIColor+Equalable.m */,
+			);
+			name = MZSelectableLabel;
+			path = ../MZSelectableLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FAA362C198FD105005FAD10 /* MZSelectableLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAA364D198FD106005FAD10 /* Build configuration list for PBXNativeTarget "MZSelectableLabelDemo" */;
+			buildPhases = (
+				1FAA3629198FD105005FAD10 /* Sources */,
+				1FAA362A198FD105005FAD10 /* Frameworks */,
+				1FAA362B198FD105005FAD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZSelectableLabelDemo;
+			productName = MZSelectableLabelDemo;
+			productReference = 1FAA362D198FD106005FAD10 /* MZSelectableLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FAA3642198FD106005FAD10 /* MZSelectableLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAA3650198FD106005FAD10 /* Build configuration list for PBXNativeTarget "MZSelectableLabelDemoTests" */;
+			buildPhases = (
+				1FAA363F198FD106005FAD10 /* Sources */,
+				1FAA3640198FD106005FAD10 /* Frameworks */,
+				1FAA3641198FD106005FAD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FAA3645198FD106005FAD10 /* PBXTargetDependency */,
+			);
+			name = MZSelectableLabelDemoTests;
+			productName = MZSelectableLabelDemoTests;
+			productReference = 1FAA3643198FD106005FAD10 /* MZSelectableLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FAA3625198FD105005FAD10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Michal Zaborowski";
+				TargetAttributes = {
+					1FAA362C198FD105005FAD10 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					1FAA3642198FD106005FAD10 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 1FAA362C198FD105005FAD10;
+					};
+				};
+			};
+			buildConfigurationList = 1FAA3628198FD105005FAD10 /* Build configuration list for PBXProject "MZSelectableLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FAA3624198FD105005FAD10;
+			productRefGroup = 1FAA362E198FD106005FAD10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FAA362C198FD105005FAD10 /* MZSelectableLabelDemo */,
+				1FAA3642198FD106005FAD10 /* MZSelectableLabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FAA362B198FD105005FAD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAA363C198FD106005FAD10 /* Main.storyboard in Resources */,
+				1FAA363E198FD106005FAD10 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAA3641198FD106005FAD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FAA3629198FD105005FAD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA74B4A1990C30700FCD5FA /* UIColor+Equalable.m in Sources */,
+				1FAA3639198FD106005FAD10 /* ViewController.m in Sources */,
+				1FAA3656198FD145005FAD10 /* MZSelectableLabel.m in Sources */,
+				1FAA3636198FD106005FAD10 /* AppDelegate.m in Sources */,
+				1FAA3633198FD106005FAD10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAA363F198FD106005FAD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAA364A198FD106005FAD10 /* MZSelectableLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FAA3645198FD106005FAD10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FAA362C198FD105005FAD10 /* MZSelectableLabelDemo */;
+			targetProxy = 1FAA3644198FD106005FAD10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FAA363A198FD106005FAD10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FAA363B198FD106005FAD10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FAA364B198FD106005FAD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FAA364C198FD106005FAD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FAA364E198FD106005FAD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MZSelectableLabelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FAA364F198FD106005FAD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MZSelectableLabelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FAA3651198FD106005FAD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MZSelectableLabelDemo.app/MZSelectableLabelDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MZSelectableLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		1FAA3652198FD106005FAD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MZSelectableLabelDemo.app/MZSelectableLabelDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MZSelectableLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FAA3628198FD105005FAD10 /* Build configuration list for PBXProject "MZSelectableLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAA364B198FD106005FAD10 /* Debug */,
+				1FAA364C198FD106005FAD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAA364D198FD106005FAD10 /* Build configuration list for PBXNativeTarget "MZSelectableLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAA364E198FD106005FAD10 /* Debug */,
+				1FAA364F198FD106005FAD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAA3650198FD106005FAD10 /* Build configuration list for PBXNativeTarget "MZSelectableLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAA3651198FD106005FAD10 /* Debug */,
+				1FAA3652198FD106005FAD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FAA3625198FD105005FAD10 /* Project object */;
+}
