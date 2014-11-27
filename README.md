@@ -57,3 +57,7 @@ MZSelectableLabel requires either iOS 7.x and above.
 [Michal Zaborowski](http://github.com/m1entus)
 
 [Twitter](https://twitter.com/iMientus)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/m1entus/mzselectablelabel/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
