@@ -454,8 +454,13 @@
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [super touchesMoved:touches withEvent:event];
-    
-    self.isTouchMoved = YES;
+
+    UITouch *currentTouch = touches.anyObject;
+    if (!CGPointEqualToPoint([currentTouch locationInView:currentTouch.view],
+                             [currentTouch previousLocationInView:currentTouch.view]))
+    {
+        self.isTouchMoved = YES;
+    }
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
