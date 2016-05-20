@@ -432,6 +432,11 @@
 
 #pragma mark - Interactions
 
+- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event {
+    MZSelectableLabelRange *touchedRange = [self rangeValueAtLocation:point];
+    return touchedRange != nil;
+}
+
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     self.isTouchMoved = NO;
